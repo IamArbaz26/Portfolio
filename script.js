@@ -27,7 +27,7 @@ function copyToClipboard(text, message) {
             setTimeout(() => {
                 button.innerHTML = originalText;
                 button.classList.remove('copied');
-            }, 2000);
+            }, 1000);
         }
         
         // Show popup message
